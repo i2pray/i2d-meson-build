@@ -22,10 +22,10 @@ https://docs.i2pd.website/en/latest/devs/building/requirements/
 ```bash
 pacman -Syu
 ```
-
+Download GCC 14: https://repo.msys2.org/mingw/ucrt64/mingw-w64-ucrt-x86_64-gcc-14.2.0-1-any.pkg.tar.zst
 ```bash
 pacman -S \
-  mingw-w64-ucrt-x86_64-gcc \
+  mingw-w64-ucrt-x86_64-gcc-14.2.0-1-any.pkg.tar.zst \
   mingw-w64-ucrt-x86_64-meson \
   mingw-w64-ucrt-x86_64-ninja \
   mingw-w64-ucrt-x86_64-boost \
