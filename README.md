@@ -9,7 +9,8 @@ https://docs.i2pd.website/en/latest/devs/building/requirements/
 
 - C++17-capable compiler  
   (MSVC 2019+, GCC 9+, Clang 10+)  
-  **-> GCC 14 is currently the safest choice with this meson setup**
+  **-> On Windows with MSYS2, GCC 14 is currently the safest choice for this meson setup**
+  (The latest GCC 15 has a [dynamic linking issue](https://github.com/msys2/MINGW-packages/issues/27465) in the MSYS2 environment.)
 
 - Boost ≥ 1.66  
 - OpenSSL ≥ 1.1.1   **or**   LibreSSL ≥ 4.0  
